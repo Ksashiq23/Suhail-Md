@@ -1,19 +1,19 @@
 {
-   "name": "suhail-md",
+   "name": "ᴷˢ ᴬˢᴴᴵQ ⁸⁵⁵",
    "version": "1.3.9",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
-            "suhail": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
-            "start": "pm2 start . --attach --name Suhail",
+            "run": "pm2 start . --deep-monitoring --attach --name KSASHIQ || node .",
+            "suhail": "pm2 start . --deep-monitoring --attach --name KSASHIQ|| node .",
+            "start": "pm2 start . --attach --name KSASHIQ",
             "stop": "pm2 stop Suhail",
             "old-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "SuhailTechInfo",
+   "author": "𝑲𝑺 𝑨𝑺𝑯𝑰𝑸 ⁸⁵⁵",
    "license" :"Apache-2.0",
    "dependencies": {
              "@adiwajshing/keyed-db": "^0.2.4",
